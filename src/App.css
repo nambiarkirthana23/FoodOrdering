@@ -1,38 +1,294 @@
-.App {
-  text-align: center;
+.icon
+{
+  font-size: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.heading
+{
+  font-size:20px;
+  display:flex;
+  /* justify-content: center; */
+  padding-left:500px;
+  /* justify-content:space-between; */
+  
 }
 
-.App-link {
-  color: #61dafb;
+ ul{
+  list-style: none; 
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width:500px;
+
+}
+.heading_home
+{
+  display:flex;
+  flex-direction: row;
+  font-size:130px;
+  padding-left:100px;
+  padding-top:150px;
+  background-color:	#D3D3D3;
+
+}
+.del
+{
+  width:520px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.food
+{
+width:380px;
+padding-top:250px;
 }
+.dish
+{
+width:400px;;
+padding-top:480px;
+padding-left:20px;
+
+}
+.image
+{
+  display:flex;
+  width:30px;
+  height:400px;
+  padding-right:40px;
+  /* flex-direction:column; */
+  /* padding-left:1300px; */
+ 
+}.about
+{
+}
+.heading-about
+{
+  font-size:70px;
+  font-style: bold;;
+  padding-left:90px;
+}
+
+.about-caption
+{
+font-size:40px;
+padding-left:90px;
+}
+
+.about-explanation
+
+{
+  /* display:flex; */
+  padding-top:50px;
+  font-size:35px;
+  width:600px;
+  padding-left:90px;
+  /* position: absolute; */
+
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-image
+{
+padding-top: 60px;
+padding-left: 280px;
+
+
+}
+.about-image {
+  width:40%;
+  height:30%;
+}
+.about-icon
+{
+ padding-top:120px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+.foodquality
+{
+  width:70px;
+  height:70px;
+}
+.fastdelivery
+{
+  width:70px;
+  height:70px;
+}
+
+.superTaste
+{
+  width:70px;
+  height:70px;
+}
+
+
+.aboutFoodQuality
+{
+  padding-left:200px;
+}
+
+  .aboutFastDelivery
+  {
+
+/* padding-left:250px; */
+  }
+  .aboutSuperTaste
+  {
+/* padding-left:400px; */
+  }
+  .images1
+  {
+    display:flex;
+    justify-content: space-between;
+  }
+  .images2
+  {
+    display:flex;
+    justify-content:space-between;
+  }
+  .image1
+  {
+    
+    flex:1;
+    padding-left: 30px;
+    width:50%;
+    height:50%;
+  }
+  .image2{
+    flex:1;
+    /* padding-left:5px; */
+    width:50%;
+    height:50%;
+
+  }
+  
+  .image3{
+    flex:1;
+    width:50%;
+    height:50%;
+  }
+
+  .image4
+  {
+    /* flex:1; */
+    flex:1;
+    width:50%;
+    height:50%;
+  }
+  .image5
+  {
+    /* flex:1; */
+    flex:1;
+    width:50%;
+    height:50%;
+  }
+  .image6
+  {
+    flex:1;
+    width:300px;
+    height:300px;
+  }
+  .account
+  {
+    width:10%;
+    height:20%;
+  }
+   .account1
+  {
+    padding-left:500px;
+    width:30px;
+    height:30px;
+  }
+  
+  .userAccount
+  {
+    /* display: flex; */
+   text-align: center;
+    /* justify-content: center; */
+  }
+  span{
+    color:red;
+  }
+  .createAccount
+  {
+    text-align:center
+  }
+  .orderFood
+  {
+   text-align: center;
+  }
+ 
+  .fn
+  {
+    display: block;
+padding-bottom:5px;
+  }
+  .fntext
+  {
+    padding-bottom:5px;
+
+  }
+  .lastName
+  {
+    display:block;
+    padding-bottom:5px;
+  }
+  .lnText
+  {
+   
+    padding-bottom:5px;
+  }
+.email
+{
+  display:block;
+  padding-bottom:5px;
+}
+.emailText
+{
+  padding-bottom:5px;
+}
+.food{
+  /* display:block; */
+  padding-bottom:5px;
+}
+.dropdownlist
+{
+  display:block;
+}
+.ot
+{
+  display:block;
+}
+/* .dropdownfoodlist
+{
+  padding-bottom:5px;
+} */
+  /* .required-field::after {
+    content: "*";
+    color: red;
+}
+
+
+
+   */
+  
+
+/* data converter for heading */
+
+
+/* .ulist
+{
+justify-content:space-between;
+}
+.li-list
+
+{
+  justify-content:space-between;
+} */
